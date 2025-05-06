@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <title>Phuong's Portfolio Website</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="nav-link-wrapper">
+        <a href="#about" class="logo">Home</a>
+        <div id="nav-links" onclick="myFunction()">
+          <a href="#education">Education</a>
+          <a href="#experience">Experience</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+      <div class="header-links">
+        <a href="mailto:phuongbk3@gmail.com">Email</a>
+        <a href="https://www.linkedin.com/in/phuongle1911/">Linkedin</a>
+        <a href="https://github.com/phuongle1911">Github</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </nav>
+  </header>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("nav-links");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+  </script>
+
+  <div id="about" class="page">
+    <img src="images/phuong.jpg" alt="Phuong's Profile Image">
+    <section class="text-box content">
+      <h1>Hi There, I'm Phuong</h1>
+      <h2>Full Stack Software Developer</h2>
+      <p>I was born and raised in Vietnam, then came to Australia for studying Environmental Science.
+        Since I was a child, I have been curious about computer, technologies and programming.
+        <br><br> After 5 years following a career in Environmental Engineering, I found myself have never forgotten that
+        passion.
+        And here I am, now becoming a software developer.
+        <br><br>
+        Driven by passion for programming, I am keen on learning new technologies, solving problems using critical
+        thinking.
+        I would love to work on different projects, create my own products and push myself going further in technology
+        industry.
+        <br><br> When I am not working, I probably do gardening, decorating/ renovating my house, watching movies,
+        reading books or go hiking.</p>
+    </section>
+    <div class="scroll">
+      <br>
+      <p><b>Scroll down for more...</b><br><br><i id="arrow"></i></p>
+    </div>
+  </div>
+  <div id="education" class="page">
+    <div class="content-header">
+      <img src="images/education.png" alt="Education icon">
+      <h1>Education</h1>
+    </div>
+    <div class="content timeline">
+      <div class="timeline-row">
+        <div class="timeline-left">
+          <div class="timeline-content">
+            <section class="text-box">
+              <h3>Bachelor of Environmental Engineering</h3>
+              <br>
+              <p>Hanoi University of Science and Technology</p>
+            </section>
+          </div>
+          <div class="connect-line">
+          </div>
+        </div>
+        <div class="timeline-segment">
+          <div class="timeline-circle"></div>
+        </div>
+        <section class="timeframe">
+          <p>2013-2018</p>
+        </section>
+      </div>
+      <div class="timeline-row">
+        <div class="timeline-left">
+          <div class="timeline-content">
+            <section class="text-box">
+              <h3>Master of Environmental Science</h3>
+              <br>
+              <p>University of South Australia</p>
+            </section>
+          </div>
+          <div class="connect-line"></div>
+        </div>
+        <div class="timeline-segment">
+          <div class="timeline-circle"></div>
+        </div>
+        <section class="timeframe">
+          <p>2019-2021</p>
+        </section>
+      </div>
+      <div class="timeline-row">
+        <div class="timeline-left">
+          <div class="timeline-content">
+            <section class="text-box">
+              <h3>Diploma of Full Stack Web Development</h3>
+              <br>
+              <p>Coder Academy</p>
+            </section>
+          </div>
+          <div class="connect-line"></div>
+        </div>
+        <div class="timeline-segment">
+          <div class="timeline-circle"></div>
+        </div>
+        <section class="timeframe">
+          <p>2024-2025</p>
+        </section>
+      </div>
+    </div>
+  </div>
+  <div id="experience" class="page">
+    <div class="content-header">
+      <img src="images/experience.png" alt="Work experience icon">
+      <h1>Work Experience</h1>
+    </div>
+    <div class="content work">
+      <details class="text-box job">
+        <summary class="job-position">
+          <section>
+            <h3 class="position">Environmental Engineer</h3>
+            <h4 class="company">Enviropacific Services </h4>
+            <br>
+            <p class="job-time">2021-2026</p>
+          </section>
+          <img class="job-pointer" src="images/arrow.png">
+        </summary>
+        <br>
+        <p class="job-desc">Project management for 30+ land remediation and water treatment projects across Australia
+          <br><br>
+          Skills: <br>Project Management, Project Delivery, Teamwork, Leadership skills, Microsoft Office suite.
+          Knowledge on environmental treatment regulation and practices</p>
+      </details>
+      <details class="text-box job">
+        <summary class="job-position">
+          <section>
+            <h3 class="position">Environmental Consultant</h3>
+            <h4 class="company">DEMS Consultant</h4>
+            <br>
+            <p class="job-time">2020-2021</p>
+          </section>
+          <img class="job-pointer" src="images/arrow.png">
+        </summary>
+        <br>
+        <p class="job-desc">Consultant for asbestos removal projects across Australia
+          <br><br>
+          Skills: <br>Teamwork, Leadership skills</p>
+      </details>
+    </div>
+  </div>
+  <div id="skills" class="page">
+    <div class="content-header">
+      <img src="images/skill.png" alt="Skill icon">
+      <h1>Skills</h1>
+    </div>
+    <div class="content skill">
+      <div>
+        <h2>Programming Languages</h2>
+        <ul class="dev-skills">
+          <li>Python</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Node / Express</li>
+          <li>Flask</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>SASS</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Tools</h2>
+        <ul class="tool-skills">
+          <li><img class="list-tick" src="images/tickmark.png" alt="Check mark">Git + Github</li>
+          <li><img class="list-tick" src="images/tickmark.png" alt="Check mark">Command Line</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Soft Skills</h2>
+        <ul class="soft-skills">
+          <li><img class="list-tick" src="images/tickmark.png" alt="Check mark">Adaptability</li>
+          <li><img class="list-tick" src="images/tickmark.png" alt="Check mark">Collaboration/ Teamwork</li>
+          <li><img class="list-tick" src="images/tickmark.png" alt="Check mark">Communication</li>
+          <li><img class="list-tick" src="images/tickmark.png" alt="Check mark">Critical Thinking</li>
+          <li><img class="list-tick" src="images/tickmark.png" alt="Check mark">Leadership</li>
+          <li><img class="list-tick" src="images/tickmark.png" alt="Check mark">Problem-solving</li>
+          <li><img class="list-tick" src="images/tickmark.png" alt="Check mark">Project Management</li>
+          <li><img class="list-tick" src="images/tickmark.png" alt="Check mark">Growth mindset</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div id="projects" class="page">
+    <div class="content-header">
+      <img src="images/project.png" alt="Project icon">
+      <h1>Projects</h1>
+    </div>
+    <h4 class="more-coming">(And more to come...)</h4>
+    <div class="content">
+      <div class="project1">
+        <div class="project-images">
+          <img src="images/portfolio-v1-1.png" alt="Portlolio Website version 1 image">
+          <img src="images/portfolio-v1-2.png" alt="Portlolio Website version 1 image">
+          <img src="images/portfolio-v1-3.png" alt="Portlolio Website version 1 image">
+        </div>
+        <div class="project-title-wrapper">
+          <h2>Portfolio Website (ver 1)</h2>
+          <div class="project-link">
+            <a href="https://phuong-le.id.au/">VISIT SITE</a>
+            <a href="https://github.com/phuongle1911/phuong-website-v1">GITHUB-CODE</a>
+          </div>
+        </div>
+        <section class="text-box">
+          <p>The first version of my personal portfolio website showcasing my website development skills.</p>
+          <br>
+          <ul>
+            <li class="project-desc">Built with HTML, CSS and Javascript</li>
+            <li class="project-desc">Responsive design with well-constructed user interface</li>
+            <li class="project-desc">Animation created using CSS</li>
+            <li class="project-desc">Fully programmed by self-learning</li>
+          </ul>
+          <ul class="used-lang">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JAVASCRIPT</li>
+          </ul>
+        </section>
+      </div>
+      <span class="divider"></span>
+      <div class="project2">
+        <div class="project-images">
+          <img src="images/portfolio-v2-1.png" alt="Portlolio Website version 2 image">
+          <img src="images/portfolio-v2-2.png" alt="Portlolio Website version 2 image">
+          <img src="images/portfolio-v2-3.png" alt="Portlolio Website version 2 image">
+        </div>
+        <div class="project-title-wrapper">
+          <h2>Portfolio Website (ver 2)</h2>
+          <div class="project-link">
+            <a href="">VISIT SITE</a>
+            <a href="">GITHUB-CODE</a>
+          </div>
+        </div>
+        <section class="text-box">
+          <p>Second version of personal portfolio website with more advanced programming skills</p>
+          <ul>
+            <li class="project-desc">More optimised coding using CSS variables and CSS selectors (ie. pseudo-class)</li>
+            <li class="project-desc">Collapsed navigation menu created to improve webiste responsiveness</li>
+            <li class="project-desc">Contact information and contact form added</li>
+          </ul>
+          </p>
+          <ul class="used-lang">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JAVASCRIPT</li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </div>
+  <div id="contact" class="page">
+    <div class="content-header">
+      <img src="images/contact.png" alt="Contact icon">
+      <h1>Get In Touch</h1>
+    </div>
+    <div class="content contact-me">
+      <p>Interested in my portfolio? Feel free to send me a message!</p>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="phone">Phone number:</label>
+        <input type="text" id="phone" name="phone"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="message">Message:</label>
+        <input type="text" id="message" name="message"><br><br>
+        <button type="submit" name="submit" id="send">
+          <span>Send Message</span>
+        </button>
+      </form>
+    </div>
+  </div>
+  <footer>
+    <p>&#169; Phuong Le 2025</p>
+  </footer>
+</body>
+
+</html>
