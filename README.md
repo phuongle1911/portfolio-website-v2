@@ -1,6 +1,6 @@
 # portfolio-website-v2
 Hi, Welcome to my personal portfolio website version 2!
-There are some changes in this website compared to the Wireframe design.
+In order to improve user interface, some design changes are made compared to the initial Wireframe design.
 ## Color theme
 I choose a brighter color theme to make the website more attractive. 
 ## Contact links arrangement (Email, Linkedin, Github)
