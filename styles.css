@@ -35,21 +35,6 @@ li {
   margin: 0;
 }
 
-nav {
-  overflow: hidden;
-  background-color: var(--header-color);
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-}
-.header-links {
-  display: flex;
-  margin-right: 2.75rem;
-}
-
-nav #nav-links {
-  display: none;
-}
 nav a {
   padding: 14px 0.5rem;
   text-decoration: none;
@@ -57,6 +42,31 @@ nav a {
   color: white;
   text-shadow: 0px 1px 2px #000001;
 }
+nav {
+  overflow: hidden;
+  background-color: var(--header-color);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-right: 2.75rem;
+}
+.nav-wrapper {
+  display: flex;
+}
+#nav-links-header {
+  display: none;
+}
+.contact-links {
+  display: flex;
+  margin-left: auto;
+}
+.contact-links img {
+  height: 20px;
+}
+#nav-links-below-header {
+  display: none;
+}
+
 nav a.icon {
   background-color: var(--header-color);
   display: block;
@@ -391,7 +401,6 @@ button#send {
   height: 2rem;
   width: fit-content;
   font-size: 1rem;
-  /* background-color: white; */
 }
 footer {
   background-color: var(--header-color);
@@ -401,9 +410,9 @@ footer {
   padding: 10px 0;
   text-align: center;
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 400px) {
   html {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 @media screen and (min-width: 600px) {
@@ -426,18 +435,13 @@ footer {
   }
   nav {
     justify-content: space-between;
-    padding-left: 20px;
+    padding: 0 20px;
   }
-  nav #nav-links {
+  #nav-links-header {
     display: flex;
   }
-  .nav-link-wrapper {
-    display: flex;
-    flex-direction: row;
-  }
-  .header-links{
-    margin-left: auto;
-    padding-right: 20px;
+  .contact-links img {
+    height: 25px;
   }
   .timeline-left {
     grid-template-columns: auto 10vw;

@@ -16,20 +16,27 @@
 <body>
   <header>
     <nav>
-      <div class="nav-link-wrapper">
+      <div class="nav-wrapper">
         <a href="#about" class="logo">Home</a>
-        <div id="nav-links" onclick="myFunction()">
+        <div id="nav-links-header">
           <a href="#education">Education</a>
           <a href="#experience">Experience</a>
           <a href="#skills">Skills</a>
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
         </div>
+        <div class="contact-links">
+          <a href="mailto:phuongbk3@gmail.com"><img src="images/mail.png" alt="email"></a>
+          <a href="https://www.linkedin.com/in/phuongle1911/"><img src="images/linkedin.png" alt="linkedin"></a>
+          <a href="https://github.com/phuongle1911"><img src="images/github.png" alt="email"></a>
+        </div>
       </div>
-      <div class="header-links">
-        <a href="mailto:phuongbk3@gmail.com">Email</a>
-        <a href="https://www.linkedin.com/in/phuongle1911/">Linkedin</a>
-        <a href="https://github.com/phuongle1911">Github</a>
+      <div id="nav-links-below-header" onclick="myFunction()">
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
       </div>
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
@@ -38,7 +45,7 @@
   </header>
   <script>
     function myFunction() {
-      var x = document.getElementById("nav-links");
+      var x = document.getElementById("nav-links-below-header");
       if (x.style.display === "block") {
         x.style.display = "none";
       } else {
