@@ -321,6 +321,9 @@ summary::-webkit-details-marker {
   position: absolute;
   z-index: 2;
 }
+.project3 img {
+  width: 50%;
+}
 .project-title-wrapper {
   display: flex;
   flex-wrap: wrap;
