@@ -374,12 +374,12 @@ li.project-desc {
   margin: 30px 0;
 }
 
-.contact-me > p {
+/* .contact-me > p {
   margin-bottom: 20px;
   font-style: italic;
   text-align: center;
-}
-form {
+} */
+/* form {
   margin: auto;
   width: fit-content;
 }
@@ -393,19 +393,19 @@ input {
   width: 80vw;
   max-width: 600px;
   height: 2rem;
-}
-input#message {
+} */
+/* input#message {
   display: inline-block;
   height: 7rem;
-}
-button#send {
+} */
+/* button#send {
   display: block;
   margin: auto;
   padding: 10px;
   height: 2rem;
   width: fit-content;
   font-size: 1rem;
-}
+} */
 footer {
   background-color: var(--header-color);
   max-height: 6vh;
