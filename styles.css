@@ -380,7 +380,6 @@ li.project-desc {
   text-align: center;
 }
 form {
-  margin: auto;
   width: fit-content;
 }
 label {
@@ -393,6 +392,7 @@ input {
   width: 80vw;
   max-width: 600px;
   height: 2rem;
+  font-size: large;
 }
 input#message {
   display: inline-block;
