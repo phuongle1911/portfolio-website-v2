@@ -380,6 +380,7 @@ li.project-desc {
   text-align: center;
 }
 form {
+  margin: 0;
   width: fit-content;
 }
 label {
